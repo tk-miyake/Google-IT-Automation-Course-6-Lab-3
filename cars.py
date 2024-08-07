@@ -36,6 +36,8 @@ def process_data(data):
 
   summary = [
     "The {} generated the most revenue: ${}".format(format_car(max_revenue["car"]), max_revenue["revenue"]),
+    "The {} had the most sales: ${}".format(format_car(car["car_model"]), item["total_sales"]),
+    "The most popular year was {} with {} sales.".format(format_car()["car_year"]), car_year["total sales in that year"]),
   ]
 
   return summary
